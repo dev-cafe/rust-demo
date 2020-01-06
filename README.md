@@ -7,6 +7,7 @@ Hands-on demo of the "Rust" programming language.
 
 ## Notes/outline
 
+- History of Rust
 - Why Rust
 - Memory model
 - Installing Rust
