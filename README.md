@@ -11,7 +11,7 @@ Hands-on demo of the "Rust" programming language.
 - Why Rust
 - Memory model
 - Installing Rust
-- Cargo check/test/fmt/doc/run/publish
+- Cargo check/fix/test/fmt/doc/run/publish
 - Rayon
 - Interfacing with C/C++/Fortran
 - Interfacing with Python
