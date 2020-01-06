@@ -20,10 +20,14 @@ Hands-on demo of the "Rust" programming language.
 
 ### Why Rust
 
+- Fast but also safe
+- Zero cost abstractions
+- Type system
+- Compiler catches most errors (if it compiles, it often just works)
+- Compiler provides helpful error messages
 - Memory safety
 - Thread safety
 - Private and immutable by default
-- Helpful error messages
 - Great tooling (testing, documentation, auto-formatter, dependency management, package registry, no makefiles needed)
 - Community
 
