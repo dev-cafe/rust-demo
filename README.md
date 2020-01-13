@@ -37,3 +37,4 @@ Hands-on demo of the "Rust" programming language.
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/)
+- [Why try Rust for scientific computing?](https://erambler.co.uk/blog/why-give-rust-a-try/)
