@@ -2,7 +2,7 @@
 
 # rust-demo
 
-Hands-on demo of the "Rust" programming language.
+Hands-on demo of the Rust programming language.
 
 
 ## Notes/outline
