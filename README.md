@@ -5,20 +5,12 @@
 Hands-on demo of the Rust programming language.
 
 
-## Notes/outline
+## History of Rust
 
-- History of Rust
-- Why Rust
-- Memory model
-- Installing Rust
-- Cargo check/fix/test/fmt/doc/run/publish
-- Rayon
-- Interfacing with C/C++/Fortran
-- Interfacing with Python
-- Great resources
+(to be written)
 
 
-### Why Rust
+## Why Rust
 
 - Fast but also safe
 - Zero cost abstractions
@@ -32,13 +24,32 @@ Hands-on demo of the Rust programming language.
 - Community
 
 
-### Great resources
+## Great resources
 
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/)
 - [Why try Rust for scientific computing?](https://erambler.co.uk/blog/why-give-rust-a-try/)
 
+
+## Memory model
+
+(to be written)
+
+
+## Installing Rust
+
+(to be written)
+
+
+## Hands-on demo
+
+Cargo check/fix/test/fmt/doc/run/publish ...
+
+(to be written and described)
+
+
+## Interfacing with C, C++, Fortran, and Python
 
 ### C calling Rust and Fortran calling Rust
 
