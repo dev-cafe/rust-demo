@@ -39,7 +39,16 @@ Hands-on demo of the Rust programming language.
 
 ## Installing Rust
 
-(to be written)
+Preferred way to install Rust for most developers: https://www.rust-lang.org/tools/install
+
+Verify your installations of `cargo` and `rustc`:
+```
+$ cargo --version                                                                                                                                      (base)
+cargo 1.39.0 (1c6ec66d5 2019-09-30)
+
+$ rustc --version                                                                                                                                      (base)
+rustc 1.39.0 (4560ea788 2019-11-04)
+```
 
 
 ## Hands-on demo
