@@ -38,3 +38,16 @@ Hands-on demo of the Rust programming language.
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/)
 - [Why try Rust for scientific computing?](https://erambler.co.uk/blog/why-give-rust-a-try/)
+
+
+### C calling Rust and Fortran calling Rust
+
+```
+cargo build --release
+
+gfortran -L target/release/ -lpi examples/fortran/example.f90 -o fortran-example.x
+gcc -L target/release/ -lpi examples/c/example.c -o c-example.x
+
+env LD_LIBRARY_PATH=target/release/ ./fortran-example.x
+env LD_LIBRARY_PATH=target/release/ ./c-example.x
+```
