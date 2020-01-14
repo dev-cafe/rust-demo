@@ -7,7 +7,12 @@ Hands-on demo of the Rust programming language.
 
 ## History of Rust
 
-(to be written)
+- Originally designed by Graydon Hoare at Mozilla Research, with contributions from Dave Herman, Brendan Eich, and others.
+- Mozilla began sponsoring the project in 2009.
+- Announced 2010: http://venge.net/graydon/talks/intro-talk-2.pdf
+- Rust 1.0, the first stable release, released in 2015.
+- The History of Rust: https://www.youtube.com/watch?v=79PSagCD_AY
+- Firefox (components Servo and Quantum) written in Rust.
 
 
 ## Why Rust
