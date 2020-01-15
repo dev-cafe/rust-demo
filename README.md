@@ -76,6 +76,11 @@ rustc 1.39.0 (4560ea788 2019-11-04)
 
 ## Hands-on demo
 
+In this demo we will approximate pi by generating random points and computing
+their distance to origin:
+
+![random points](img/darts.png)
+
 Cargo check/fix/test/fmt/doc/run/publish ...
 
 (to be written and described)
