@@ -17,6 +17,7 @@ Hands-on demo of the Rust programming language.
 
 ## Why Rust
 
+- "A language empowering everyone to build reliable and efficient software." (https://www.rust-lang.org)
 - Fast but also safe
 - Zero cost abstractions
 - Type system
