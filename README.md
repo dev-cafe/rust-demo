@@ -25,6 +25,7 @@ Hands-on demo of the Rust programming language.
 - Memory safety
 - Thread safety
 - Private and immutable by default
+- Side-effect control: pure by default
 - Great tooling (testing, documentation, auto-formatter, dependency management, package registry, no makefiles needed)
 - Community
 
@@ -41,6 +42,17 @@ Hands-on demo of the Rust programming language.
 
 - Each value in Rust has an owner and there can only be one owner at a time.
 - When the owner goes out of scope, the value is dropped.
+
+This does not compile:
+```rust
+let s1 = String::from("hello");
+let s2 = s1;
+
+println!("{}, world!", s1);
+```
+
+- We can borrow references: https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#references-and-borrowing
+- At any given time, you can have either one mutable reference or any number of immutable references.
 
 
 ## Installing Rust
