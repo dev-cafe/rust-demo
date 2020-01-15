@@ -81,9 +81,17 @@ their distance to origin:
 
 ![random points](img/darts.png)
 
-Cargo check/fix/test/fmt/doc/run/publish ...
-
-(to be written and described)
+Tasks/discussion points:
+- Clone the code
+- Browse and discuss the sources
+- Compile the sources with `cargo check`
+- Compare `cargo check` and `cargo build`
+- Discuss `cargo run`
+- Experiment with `cargo fmt`
+- Run the tests with `cargo test`
+- Generate optimized version with `cargo build --release`
+- Generate the documentation with `cargo doc`
+- Discuss `cargo publish`
 
 
 ## Interfacing with C, C++, Fortran, and Python
