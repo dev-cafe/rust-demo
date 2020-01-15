@@ -82,6 +82,7 @@ their distance to origin:
 ![random points](img/darts.png)
 
 Tasks/discussion points:
+- Mention that one can bootstrap a project with `cargo new`
 - Clone the code
 - Browse and discuss the sources
 - Compile the sources with `cargo check`
@@ -91,7 +92,7 @@ Tasks/discussion points:
 - Run the tests with `cargo test`
 - Generate optimized version with `cargo build --release`
 - Generate the documentation with `cargo doc`
-- Discuss `cargo publish`
+- Discuss `cargo publish` and https://crates.io (the Rust package registry)
 
 
 ## Interfacing with C, C++, Fortran, and Python
