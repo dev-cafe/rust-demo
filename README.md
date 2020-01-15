@@ -55,6 +55,7 @@ let s2 = s1;
 println!("{}, world!", s1);
 ```
 
+- Rust's memory is managed a bit like money: one owner, it can be borrowed.
 - We can borrow references: https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#references-and-borrowing
 - At any given time, you can have either one mutable reference or any number of immutable references.
 
