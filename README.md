@@ -42,6 +42,7 @@ Hands-on demo of the Rust programming language.
 
 - No explicit allocation and deallocation
 - No garbage collector either
+- Rust knows the size of all stack allocations at compile time
 - Each value in Rust has an owner and there can only be one owner at a time.
 - When the owner goes out of scope, the value is dropped.
 
