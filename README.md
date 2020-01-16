@@ -79,7 +79,7 @@ rustc 1.39.0 (4560ea788 2019-11-04)
 ## Hands-on demo
 
 In this demo we will approximate pi by generating random points and computing
-their distance to origin:<sup>[1](#myfootnote1)</sup>
+their distance to origin:<sup>[1](#footnote1)</sup>
 
 ![random points](img/pi_Monte-Carlo.gif)
 
@@ -111,10 +111,10 @@ env LD_LIBRARY_PATH=target/release/ ./fortran-example.x
 env LD_LIBRARY_PATH=target/release/ ./c-example.x
 ```
 
- <a name="myfootnote1">1</a>: GIF from https://www.soroushjp.com/2015/02/07/go-concurrency-is-not-parallelism-real-world-lessons-with-monte-carlo-simulations/
-
-
 ### Python calling Rust
 
 - [Example using CFFI](examples/python)
 - Example using [PyO3](https://github.com/PyO3/pyo3): https://github.com/robertodr/rustafarian
+
+
+<a name="footnote1">1</a>: GIF from https://www.soroushjp.com/2015/02/07/go-concurrency-is-not-parallelism-real-world-lessons-with-monte-carlo-simulations/
