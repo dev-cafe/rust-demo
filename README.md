@@ -13,6 +13,8 @@ Hands-on demo of the Rust programming language.
 - Rust 1.0, the first stable release, released in 2015.
 - The History of Rust: https://www.youtube.com/watch?v=79PSagCD_AY
 - Firefox (components Servo and Quantum) written in Rust.
+- Ad block engine in Brave.
+- `exa`, `ripgrep`, and `fd`.
 
 
 ## Why Rust
