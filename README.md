@@ -66,10 +66,10 @@ Preferred way to install Rust for most developers: https://www.rust-lang.org/too
 
 Verify your installations of `cargo` and `rustc`:
 ```
-$ cargo --version                                                                                                                                      (base)
+$ cargo --version
 cargo 1.39.0 (1c6ec66d5 2019-09-30)
 
-$ rustc --version                                                                                                                                      (base)
+$ rustc --version
 rustc 1.39.0 (4560ea788 2019-11-04)
 ```
 
@@ -77,9 +77,9 @@ rustc 1.39.0 (4560ea788 2019-11-04)
 ## Hands-on demo
 
 In this demo we will approximate pi by generating random points and computing
-their distance to origin:
+their distance to origin:<sup>[1](#myfootnote1)</sup>
 
-![random points](img/darts.png)
+![random points](img/pi_Monte-Carlo.gif)
 
 Tasks/discussion points:
 - Mention that one can bootstrap a project with `cargo new`
@@ -108,3 +108,5 @@ gcc -L target/release/ -lpi examples/c/example.c -o c-example.x
 env LD_LIBRARY_PATH=target/release/ ./fortran-example.x
 env LD_LIBRARY_PATH=target/release/ ./c-example.x
 ```
+
+ <a name="myfootnote1">1</a>: GIF from https://www.soroushjp.com/2015/02/07/go-concurrency-is-not-parallelism-real-world-lessons-with-monte-carlo-simulations/
