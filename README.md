@@ -11,6 +11,8 @@ Hands-on demo of the Rust programming language.
 - Mozilla began sponsoring the project in 2009.
 - Announced 2010: http://venge.net/graydon/talks/intro-talk-2.pdf
 - Rust 1.0, the first stable release, released in 2015.
+- Since 2011 `rustc` is compiled using `rustc`.
+- `rustc` uses LLVM as its back end.
 - The History of Rust: https://www.youtube.com/watch?v=79PSagCD_AY
 - Firefox (components Servo and Quantum) written in Rust.
 - Ad block engine in Brave.
