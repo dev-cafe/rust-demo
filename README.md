@@ -86,8 +86,9 @@ their distance to origin:<sup>[1](#footnote1)</sup>
 ![random points](img/pi_Monte-Carlo.gif)
 
 Tasks/discussion points:
-- Mention that one can bootstrap a project with `cargo new`
-- Clone the code
+- Show how to bootstrap a project with `cargo new`
+- Step out of the newly bootstrapped project
+- Clone the code (this repository)
 - Browse and discuss the sources
 - Compile the sources with `cargo check`
 - Compare `cargo check` and `cargo build`
