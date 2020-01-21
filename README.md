@@ -14,7 +14,7 @@ Hands-on demo of the Rust programming language.
 - The History of Rust: https://www.youtube.com/watch?v=79PSagCD_AY
 - Firefox (components Servo and Quantum) written in Rust.
 - Ad block engine in Brave.
-- `exa`, `ripgrep`, and `fd` written in Rust (you really want these tools!).
+- `exa`, `ripgrep`, `bat`, and `fd` written in Rust (you really want these tools!).
 
 
 ## Why Rust
