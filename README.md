@@ -30,7 +30,6 @@ Hands-on demo of the Rust programming language.
 - Memory safety
 - Thread safety
 - Private and immutable by default
-- Side-effect control: pure by default
 - Great tooling (testing, documentation, auto-formatter, dependency management, package registry, no makefiles needed)
 - Community
 - Most-loved programming language in the 2016, 2017, 2018, and 2019 Stack Overflow annual surveys
