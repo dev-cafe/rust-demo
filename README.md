@@ -75,10 +75,10 @@ Preferred way to install Rust for most developers: https://www.rust-lang.org/too
 Verify your installations of `cargo` and `rustc`:
 ```
 $ cargo --version
-cargo 1.39.0 (1c6ec66d5 2019-09-30)
+cargo 1.47.0 (f3c7e066a 2020-08-28)
 
 $ rustc --version
-rustc 1.39.0 (4560ea788 2019-11-04)
+rustc 1.47.0 (18bf6b4f0 2020-10-07)
 ```
 
 
