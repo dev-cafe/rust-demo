@@ -120,8 +120,13 @@ env LD_LIBRARY_PATH=target/release/ ./c-example.x
 
 ### Python calling Rust
 
-- [Example using CFFI](examples/python)
-- Example using [PyO3](https://github.com/PyO3/pyo3): https://github.com/robertodr/rustafarian
+Using [PyO3](https://github.com/PyO3/pyo3) and [Maturin](https://github.com/PyO3/maturin):
+```
+cargo build --release
+maturin develop --release
+python -c "import pi; print(pi.pi_approximation(1000000))"
+```
 
+---
 
 <a name="footnote1">1</a>: GIF from https://www.soroushjp.com/2015/02/07/go-concurrency-is-not-parallelism-real-world-lessons-with-monte-carlo-simulations/
