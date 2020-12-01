@@ -15,8 +15,10 @@ Hands-on demo of the Rust programming language.
 - `rustc` uses LLVM as its back end.
 - The History of Rust: https://www.youtube.com/watch?v=79PSagCD_AY
 - Firefox (components Servo and Quantum) written in Rust.
-- Ad block engine in Brave.
+- Ad block engine in [Brave](https://brave.com/).
 - `exa`, `ripgrep`, `bat`, and `fd` written in Rust (you really want these tools!).
+- Great overview of tools written in Rust: https://www.wezm.net/v2/posts/2020/100-rust-binaries/
+- [Discord](https://discord.com/) uses Rust for some of its backed.
 
 
 ## Why Rust
