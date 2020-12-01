@@ -44,6 +44,7 @@ Hands-on demo of the Rust programming language.
 - [The Rustonomicon](https://doc.rust-lang.org/nomicon/)
 - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - [Why try Rust for scientific computing?](https://erambler.co.uk/blog/why-give-rust-a-try/)
+- [Rust in Action](http://www.rustinaction.com/)
 
 
 ## Memory model
