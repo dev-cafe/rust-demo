@@ -5,7 +5,7 @@ pub struct Point {
     pub y: f64,
 }
 
-pub fn random_points(num_points: i32) -> Vec<Point> {
+pub fn random_points(num_points: usize) -> Vec<Point> {
     let mut rng = StdRng::from_seed([0; 32]);
 
     let mut points = Vec::new();

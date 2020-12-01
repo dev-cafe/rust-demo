@@ -5,7 +5,7 @@ fn distance_squared(x: f64, y: f64) -> f64 {
 }
 
 #[no_mangle]
-pub extern "C" fn pi_approximation(num_points: i32) -> f64 {
+pub extern "C" fn pi_approximation(num_points: usize) -> f64 {
     let points = random::random_points(num_points);
 
     let num_points_inside = points
