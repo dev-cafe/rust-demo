@@ -34,7 +34,8 @@ Hands-on demo of the Rust programming language.
 - Private and immutable by default
 - Great tooling (testing, documentation, auto-formatter, dependency management, package registry, no makefiles needed)
 - Community
-- Most-loved programming language in the 2016, 2017, 2018, and 2019 Stack Overflow annual surveys
+- Most-loved programming language in the 2016, 2017, 2018, 2019, and 2020
+  [Stack Overflow annual surveys](https://insights.stackoverflow.com/survey/)
 
 
 ## Great resources
