@@ -46,6 +46,7 @@ Hands-on demo of the Rust programming language.
 - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - [Why try Rust for scientific computing?](https://erambler.co.uk/blog/why-give-rust-a-try/)
 - [Rust in Action](http://www.rustinaction.com/)
+- [The Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/)
 
 
 ## Memory model
